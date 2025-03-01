@@ -78,8 +78,11 @@ $(function() {
   
   onDetail = (element) => {
     var pageId = $(element).data('page_id');
-    console.log(pageId);
     $('#homepage').hide();
     $(`#detailpage`).slideDown();
     $(`#${pageId}`).show();
+  }
+
+  onBack = () => {
+    location.reload();
   }

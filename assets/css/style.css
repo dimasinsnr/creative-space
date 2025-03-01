@@ -394,6 +394,11 @@
     text-align: right; /* Mengatur agar tanggal berada di sebelah kanan */
 }
 
+.disclaimer {
+    color: red;
+    font-size: 14x;
+}
+
 
 
 
@@ -514,8 +519,7 @@
         margin-bottom: 30px;
     }
 
-    #carouselExampleControlsNoTouching {
-        /* max-width: 80%; */
+    .cec {
         width: 100%;
         margin-top: -100px;
     }
@@ -526,6 +530,10 @@
         border-radius: 50%; /* Round arrows */
         width: 35px !important;   /* Size of the arrows */
         height: 34px !important;  /* Size of the arrows */
+    }
+
+    .disclaimer {
+        font-size: 10px;
     }
 }
 
